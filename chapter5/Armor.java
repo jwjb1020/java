@@ -1,6 +1,6 @@
 package chapter5;
 
-public class Exam01 {
+public class Armor {
 	private int height;
 	private String name;
 	private int weight;
@@ -12,4 +12,11 @@ public class Exam01 {
 		name = value;
 	}
 
+	public String getName() {
+		if(name == null) {
+			return "NO Name";
+		}
+		return name;
+		
+	}
 }
