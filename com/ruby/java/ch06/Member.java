@@ -5,26 +5,34 @@ public class Member {
 	private int age;
 
 	public Member() {
-		System.out.println("Member() »ý¼ºÀÚ ½ÇÇà");
+		this.name = "guest";
+		age =1;
+		
 	}
-
 	public Member(String name) {
-		System.out.print("Member(String) »ý¼ºÀÚ ½ÇÇà : ");
-		System.out.println(name);
+		this.name = name;
+		age = 0;
+		
 	}
 
 	public Member(String name, int age) {
-		System.out.print("Member(String, int) »ý¼ºÀÚ ½ÇÇà : ");
-		System.out.println(name + " : " + age);
+		this.name = name;
+		this.age = age;
+		
 	}
-
-	public void setName(String name) {
+	public void show() {
+		System.out.println("name =" + name + "\n" + "age =" + age);
+		
 	}
 
 	public static void main(String[] args) {
-		System.out.println("main() ¸Þ¼­µå ½ÇÇà");
-		new Member();
-		new Member("Amy");
-		new Member("Amy", 23);
+		System.out.println("main() ë©”ì„œë“œ ì‹¤í–‰");
+		Member m1 = new Member("amy");
+		Member m2 = new Member("Amy");
+		Member m3 = new Member("amy",3);
+		m1.show();
+		m2.show();
+		m3.show();
+		
 	}
 }
