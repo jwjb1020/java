@@ -7,6 +7,7 @@ public class LMSTest {
 		
 		Employee e1 = new Employee("조",20,"ㅎㅎ");
 				System.out.println(e1);
+				e1.setDept(null);
 ////		Professor p = new Professor();
 ////		Student s = new Student();
 //		

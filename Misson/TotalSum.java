@@ -16,10 +16,26 @@ public class TotalSum {
 
 	public void getSum(int definedNum) {
 		this.definedNum = definedNum;
-		num = 0;
-		even = 0;
-		odd = 0;
+//		num = 0;
+//		even = 0;
+//		odd = 0;
 		//쓰레기값을 청소해줌
+
+		for (int i = 0; i <= definedNum; i++) {
+			num += i;
+			if (i % 2 == 0) {
+				even += i;
+
+			} else if (i % 2 == 1) {
+				odd += i;
+			}
+		}
+
+		}
+
+	public TotalSum(int definedNum) {
+		this.definedNum = definedNum;
+		
 
 		for (int i = 0; i <= definedNum; i++) {
 			num += i;
