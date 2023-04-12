@@ -6,13 +6,15 @@ public class MissonMoney {
 	public static void main(String[] args) {
 	//상품의 가격
 	 double value = 123214;
-	//천원,5천원,만원,5만원
-	 int an = 0;
-	 int bn = 0;
-	 int cn = 0;
-	 int dn = 0;
-	 //가격에서 1000원 미만은 할인
-	 if()
+	//천원,5천원,만원,5만원 필요한 수
+	 int abill = (int) (value/1000);
+	 int bbill = (int) (value/5000);
+	 int cbill = (int) (value/10000);
+	 int dbill = (int) (value/50000);
+	 //가격에서 1000원 미만은 할인= 밑에 방법 활용
+	 //나머지 구하는 방법 예) 1234567%1000 = 567
+	 // 1234567/1000 = 1234.....<-int로 바꾸면 됨
+	 
 	 
 	 
 	 
