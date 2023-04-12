@@ -5,6 +5,7 @@ public class MessengerTest {
 		IPhoneMessenger iphone = new IPhoneMessenger();
 		GalaxyMessenger galaxy = new GalaxyMessenger();
 		
+		
 		System.out.println("메신저 최소 문자 크기" + Messenger.MIN_SIZE);
 		System.out.println("메신저 최대 문자 크기" + Messenger.MAX_SIZE);
 		
@@ -21,7 +22,12 @@ public class MessengerTest {
 		galaxy.fileUpload();
 		
 		iphone.draw_textBox();
+		
+		
 		iphone.draw_submitButton();
+		
+		
+		
 	}
 
 }

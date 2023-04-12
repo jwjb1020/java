@@ -4,7 +4,10 @@ import java.util.Scanner;
 
 public class MissonMoney {
 	public static void main(String[] args) {
+<<<<<<< HEAD
 
+=======
+>>>>>>> 87970a3 (미션 성공)
 		// 상품의 가격
 		System.out.println("상품의 가격을 입력해 주세요.");
 		Scanner sc = new Scanner(System.in);
@@ -42,6 +45,7 @@ public class MissonMoney {
 		System.out.println("5천원 수 :" + cbill);
 		System.out.println("1천원 수 :" + dbill);
 		sc.close();
+<<<<<<< HEAD
 
 		
 	
@@ -69,3 +73,8 @@ public class MissonMoney {
 	}
 
 
+=======
+	}
+
+}
+>>>>>>> 87970a3 (미션 성공)
