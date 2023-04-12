@@ -2,7 +2,7 @@ package chapter7;
 
 public class LMSTest2 {
 	public static void main(String[] args) {
-		Employee e = new Employee("조",45,"입학처");
+		Hahw e = new Employee("조",45,"입학처");
 		Professor p = new Professor("won",33,"house");
 		Student s = new Student("jun",36,"build");
 		

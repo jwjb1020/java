@@ -2,10 +2,10 @@ package chapter7;
 
 public class LMSTest {
 	public static void main(String[] args) {
-		Employee e = new Employee();
+		Hahw e = new Employee();
 		System.out.println(e);
 		
-		Employee e1 = new Employee("조",20,"ㅎㅎ");
+		Hahw e1 = new Employee("조",20,"ㅎㅎ");
 				System.out.println(e1);
 				e1.setDept(null);
 ////		Professor p = new Professor();

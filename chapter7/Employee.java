@@ -1,6 +1,6 @@
 package chapter7;
 
-public class Employee extends Person {
+public class Employee extends Person implements Hahw {
 	private String dept;
 
 //	public Employee() {
@@ -16,10 +16,12 @@ public class Employee extends Person {
 	public Employee() {
 		// TODO Auto-generated constructor stub
 	}
+	@Override
 	public String getDept() {
 		return dept;
 	}
 
+	@Override
 	public void setDept(String dept) {
 		this.dept = dept;
 	}
