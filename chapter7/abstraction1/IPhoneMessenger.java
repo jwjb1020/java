@@ -1,6 +1,6 @@
 package chapter7.abstraction1;
 
-public class IPhoneMessenger implements Messenger {
+public class IPhoneMessenger extends GraphicIOS implements Messenger {
 
 	@Override
 	public String getMessage() {
