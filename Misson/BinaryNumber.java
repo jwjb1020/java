@@ -2,7 +2,24 @@ package Misson;
 
 import java.util.Scanner;
 
-public class BinaryNumber {
+class BinaryNumber {
+	// 출력된 값을 거꾸로 만드는 함수 클래스
+	private int value = 0;
+	private int remain = 0;
+
+	public BinaryNumber() {
+
+	}
+
+	public void reverse(int value) {
+		int[] arr;
+
+		for (int i = 0; i < arr.length; i++) {
+			
+		}
+
+	}
+
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int value = sc.nextInt();
@@ -16,10 +33,8 @@ public class BinaryNumber {
 			remain = value % 2;
 			System.out.print(remain);
 			value = value / 2;
-			
 
 		}
 		System.out.print(value);
 	}
-
 }
