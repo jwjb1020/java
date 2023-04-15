@@ -16,13 +16,17 @@ class BinaryNumber {
 	}
 
 	public static void main(String[] args) {
-		BinaryNumber s = new BinaryNumber();
-		/*
-		 * String bi =""; int number = 6; while(number>0) { bi = number%2+bi; number
-		 * /=2; }
-		 * 
-		 * System.out.println(bi);
-		 */
+		//BinaryNumber s = new BinaryNumber();
+		String bi = "";
+		int number = 6;
+		while (number != 0) {
+			bi = number % 2 + bi;
+			number /= 2;
+			
+		}
+		System.out.println(bi);
+
+		
 
 		Scanner sc = new Scanner(System.in);
 		int value = sc.nextInt();
@@ -49,10 +53,11 @@ class BinaryNumber {
 		}
 		arr[i] = value;
 		// 2진수 반대로 된걸 똑바록 출력
-//		for (int j = i; j >= 0; j--) {
-//			System.out.print(arr[j]);
-//
-//		}
-		s.Binary(value);
+		for (int j = i; j >= 0; j--) {
+			System.out.print(arr[j]);
+
+		}
+		// s.Binary(value);
+		sc.close();
 	}
 }
