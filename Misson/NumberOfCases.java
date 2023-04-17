@@ -18,34 +18,25 @@ public class NumberOfCases {
 //		}
 		System.out.println("10~100 사이의 수를 입력해주세요.");
 		Scanner sc = new Scanner(System.in);
-		int n = sc.nextInt();
-		int b = n;
+		int num = sc.nextInt();
+		int b = num;
 		int count = 0;
+
 		for (int i = 1; i < 11; i++) {
-			n = b;
-			n -= 2 * i;
-			int a = n;
+			num = b;
+			num -= 2 * i;
+			int a = num;
 			for (int j = 1; j < 11; j++) {
-
-				n -= 3 * j;
-				if (n <= 0) {
+				num -= 3 * j;
+				if (num <= 0) {
 					break;
-				} else if (n % 5 == 0) {
-					int result = n / 5;
-
-//					System.out.println(result);
-//					System.out.println(j);
-//					System.out.println(i);
+				} else if (num % 5 == 0) {
+					int result = num / 5;
 					count++;
 					System.out.print("(" + i + "," + j + "," + result + ")");
 
-					n = a;
-				} // else if (n < 0) {
-					// break;
-
-				// }
-				else {
-					n = a;
+				} else {
+					num = a;
 
 				}
 
@@ -53,7 +44,7 @@ public class NumberOfCases {
 
 		}
 		sc.close();
-		System.out.print(": "+ count);
+		System.out.print(": " + count);
 		// 10~100 입력
 		// 추의 합이 입력 받은 값이 되는 경우
 		// 각각 1개 이상 사용

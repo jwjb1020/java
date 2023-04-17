@@ -3,6 +3,7 @@ package Misson;
 import java.util.Scanner;
 
 class BinaryNumber {
+<<<<<<< Updated upstream
 	// 출력된 값을 거꾸로 만드는 함수 클래스
 	private int i = 0;
 	private int j = 0;
@@ -14,6 +15,24 @@ class BinaryNumber {
 		System.out.print(arr[j]);
 
 	}
+=======
+//	// 출력된 값을 거꾸로 만드는 함수 클래스
+//	private int value = 0;
+//	private int remain = 0;
+//
+//	public BinaryNumber() {
+//
+//	}
+//
+//	public void reverse(int value) {
+//		int[] arr;
+//
+//		for (int i = arr.length; i < arr.length; i++) {
+//			
+//		}
+//
+//	}
+>>>>>>> Stashed changes
 
 	public static void main(String[] args) {
 		//BinaryNumber s = new BinaryNumber();
