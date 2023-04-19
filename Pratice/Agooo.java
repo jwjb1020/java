@@ -19,6 +19,7 @@ public class Agooo {
 		        System.out.println("arr[" + i + "] = " + arr[i]);
 		    }
 		    System.out.println("arr = " + arr);
+		    System.out.println();
 	}
 
 }
