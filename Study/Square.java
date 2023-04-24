@@ -1,4 +1,4 @@
-package Pratice;
+package Study;
 
 public class Square {
 	public static void main(String[] args) {

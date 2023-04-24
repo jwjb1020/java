@@ -1,6 +1,4 @@
-package Pratice;
-
-import java.util.Iterator;
+package Study;
 
 public class Agooo {
 	public static void main(String[] args) {
