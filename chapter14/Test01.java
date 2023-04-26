@@ -67,7 +67,7 @@ public class Test01 {
 		test2().print();
 		
 		MyInterface m = () -> System.out.println("hello");//m은 선언이 되어있어서 안됨
-		MyInterface m = test2();
+		MyInterface a = test2();
 		m.print(); //만약에 위에 람다식이 없으면 가능
 	}
 }
